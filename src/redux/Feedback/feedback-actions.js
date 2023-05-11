@@ -1,15 +1,17 @@
+import actionsType from './feedback-types';
+
 const handleIncrementGood = value => ({
-  type: 'Feedback/IncrementGood',
+  type: actionsType.GOOD,
   payload: value,
 });
 
 const handleIncrementNeutral = value => ({
-  type: 'Feedback/IncrementNeutral',
+  type: actionsType.NEUTRAL,
   payload: value,
 });
 
 const handleIncrementBad = value => ({
-  type: 'Feedback/IncrementBad',
+  type: actionsType.BAD,
   payload: value,
 });
 

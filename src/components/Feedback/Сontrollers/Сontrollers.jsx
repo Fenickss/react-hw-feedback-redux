@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import css from './Controllers.module.css';
 import { connect } from 'react-redux';
-import * as action from '../../../redux/action';
+import * as action from '../../../redux/Feedback/feedback-actions';
 
 const Сontrollers = ({
   onIncrementGood,
