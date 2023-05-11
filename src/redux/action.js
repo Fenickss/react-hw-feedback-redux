@@ -1,14 +1,16 @@
-export const handleIncrementGood = value => ({
+const handleIncrementGood = value => ({
   type: 'Feedback/IncrementGood',
   payload: value,
 });
 
-export const handleIncrementNeutral = value => ({
+const handleIncrementNeutral = value => ({
   type: 'Feedback/IncrementNeutral',
   payload: value,
 });
 
-export const handleIncrementBad = value => ({
+const handleIncrementBad = value => ({
   type: 'Feedback/IncrementBad',
   payload: value,
 });
+
+export { handleIncrementGood, handleIncrementNeutral, handleIncrementBad };

@@ -7,7 +7,6 @@ const initialState = {
     neutral: 0,
     bad: 0,
     step: 1,
-    total: 0,
   },
 };
 
